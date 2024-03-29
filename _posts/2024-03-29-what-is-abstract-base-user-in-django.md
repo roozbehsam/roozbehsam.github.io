@@ -1,5 +1,5 @@
 ---
-title: Why Use Django's "AbstractBaseUser" And Not Use the "User" Model Directly?
+title: Why Use Django's "AbstractBaseUser" and Not Use the "User" Model Directly?
 date: 2024-03-29 00:00 +0330
 description: My first post.
 category: [Notes]

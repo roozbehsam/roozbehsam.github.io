@@ -10,7 +10,7 @@ sitemap: true
 
 When using Docker, many encounter the unexpected behavior of port mapping bypassing the host's firewall rules. This phenomenon can be perplexing, especially for those relying on firewall tools like UFW (Uncomplicated Firewall).
 
-#### The Problem
+### The Problem
 Consider this scenario:
 - You have a Docker container running an application (e.g., urbackup) with the following port mapping:
 
@@ -27,27 +27,27 @@ Alternatively, if you use:
   ```
 the application is inaccessible until UFW rules are explicitly added.
 
-#### Why This Happens
+### Why This Happens
 Docker manages its own `iptables` rules to handle network isolation and routing for containers. It places these rules in specific firewall chains that take precedence over user-defined chains like those used by UFW. Docker's rules allow traffic to the mapped ports directly, bypassing the usual host firewall rules.
 
-#### Explanation
+### Explanation
 - **Docker's `iptables` Chains**: Docker manipulates the `iptables` rules by inserting its own rules in a chain that has a higher precedence than typical user-defined chains.
 - **Chain Precedence**: Firewall chains have a hierarchy. Docker places its rules in the `DOCKER` chain, which sits above the user-defined chains altered by UFW.
 - **Host Mode**: When using `network_mode: "host"`, the container uses the host’s network stack directly, meaning UFW rules apply as expected.
 
-#### Solutions
+### Solutions
 1. **Custom `iptables` Rules**: Place custom firewall rules in the `DOCKER-USER` chain to ensure they are processed before Docker’s rules.
 2. **Local Address Binding**: Bind Docker ports to local addresses and use a reverse proxy like NGINX to manage access control.
 3. **Modify Docker Configuration**: Adjust Docker’s default behavior by configuring Docker to not manipulate `iptables`.
 
-#### Example Solution
+### Example Solution
 To prevent Docker from bypassing UFW, you can create a custom `iptables` rule. For instance:
 ```sh
 iptables -I DOCKER-USER -p tcp --dport 5000 -j DROP
 ```
 This rule blocks all traffic to port 5000 unless explicitly allowed elsewhere.
 
-#### Conclusion
+### Conclusion
 Understanding the interaction between Docker’s port mapping and host firewall rules is crucial for securing Dockerized applications. By leveraging custom `iptables` rules and configuring Docker appropriately, you can maintain the desired level of security without unexpected traffic bypassing your firewall settings.
 
 For more detailed guidance, refer to the [Docker documentation on packet filtering and firewalls](https://docs.docker.com/network/packet-filtering-firewalls/).

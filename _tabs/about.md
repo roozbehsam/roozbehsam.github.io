@@ -4,4 +4,20 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I'm Roozbeh, a software engineer
+Hey 👋, I'm Roozbeh. I've been a software developer since 2019.
+
+I believe software engineering is all about simplifying,
+solving real-life problems,
+and making things easier for people. 
+
+I love connecting with new people. You can reach me at roozbehatwork@gmail.com.
+
+
+#### Tools and Technologies I Use:
+
+**Back-end:** Python, Django and DRF, Flask, FastAPI, Node.js, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Redis, Docker, Git/GitLab, AWS (CDK, ECS, RDS, S3, Lambda, API Gateway), CI/CD pipelines, Automated testing (Pytest), TDD (Test-Driven Development)
+
+
+**Front-end:** JavaScript, VueJS, React, Bootstrap, jQuery, HTML/CSS/SCSS
+
+

@@ -2,6 +2,8 @@
 title: Understanding the "const" Keyword in JavaScript. Constant References, Not Values
 date: 2024-03-25 00:00 +0330
 description: My first post.
+image:
+  path: /assets/img/posts/post-js-const.png
 category: [Notes]
 tags: [javascript, reactjs]
 published: true

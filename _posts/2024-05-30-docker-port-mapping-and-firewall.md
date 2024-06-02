@@ -2,6 +2,8 @@
 title: Does Docker Port Mapping Bypass the Host Firewall?	
 date: 2024-05-30 00:00 +0330
 description: Docker port mapping and firewall.
+image:
+  path: /assets/img/posts/post-docker-port-mapping.png
 category: [Notes]
 tags: [docker, devops, fiewall, linux]
 published: true

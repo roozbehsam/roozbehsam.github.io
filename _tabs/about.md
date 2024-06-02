@@ -15,9 +15,11 @@ I love connecting with new people. You can reach me at roozbehatwork@gmail.com.
 
 #### Tools and Technologies I Use:
 
-**Back-end:** Python, Django and DRF, Flask, FastAPI, Node.js, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Redis, Docker, Git/GitLab, AWS (CDK, ECS, RDS, S3, Lambda, API Gateway), CI/CD pipelines, Automated testing (Pytest), TDD (Test-Driven Development)
+Python, Django and DRF, Flask, FastAPI, Node.js,<br/>
+SQLAlchemy, PostgreSQL, MySQL, MongoDB, Redis,<br/>
+RabbitMQ, Docker, Git/GitLab, AWS (CDK, ECS, RDS, S3, Lambda, API Gateway),<br/>
+CI/CD pipelines, Automated testing (Pytest), TDD (Test-Driven Development),<br/>
+JavaScript, VueJS, React, Bootstrap, jQuery, HTML/CSS/SCSS
 
-
-**Front-end:** JavaScript, VueJS, React, Bootstrap, jQuery, HTML/CSS/SCSS
 
 

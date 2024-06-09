@@ -10,7 +10,7 @@ I believe software engineering is all about simplifying,
 solving real-life problems,
 and making things easier for people. 
 
-I love connecting with new people. You can reach me at roozbehatwork@gmail.com.
+I love connecting with new people. You can reach me at roozbehatwork[at]gmail.com.
 
 
 #### Tools and Technologies I Use:

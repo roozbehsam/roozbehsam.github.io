@@ -19,7 +19,7 @@ title: Roozbeh Sam # the main title
 tagline: Where I publish web-friendly content in the form of articles, notes, tutorials, and other works # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Programming Blog
+  Software Engineering Blog
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.

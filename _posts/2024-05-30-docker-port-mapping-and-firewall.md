@@ -4,7 +4,7 @@ date: 2024-05-30 00:00 +0330
 description: Docker port mapping and firewall.
 image:
   path: /assets/img/posts/post-docker-port-mapping.png
-category: [Notes]
+category: [DevOps]
 tags: [docker, devops, fiewall, linux]
 published: true
 sitemap: true

@@ -4,7 +4,7 @@ date: 2024-06-10 00:00 +0330
 description: N+1 Query problem in SQL ORMs.
 image:
   path: /assets/img/posts/sql-query-problem.png
-category: [Notes]
+category: [Database]
 tags: [sql, database, django, sqlalchemy ,database_optimization, performance_optimization]
 published: true
 sitemap: true

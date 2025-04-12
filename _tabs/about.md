@@ -5,7 +5,7 @@ order: 4
 ---
 
 Hey 👋, I'm Roozbeh.\
-I've been helping companies and people grow their businesses as a software engineer since 2019,\
+I've been helping companies and people grow their businesses as a software engineer since 2018,\
 focusing on web applications and having experience in the full development cycle,\
 including infrastructure, back-end, and front-end.
 

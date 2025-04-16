@@ -6,7 +6,7 @@ image:
   path: /assets/img/posts/sql-query-problem.png
 category: [Database]
 tags: [sql, database, django, sqlalchemy ,database_optimization, performance_optimization]
-published: true
+published: false
 sitemap: true
 ---
 Are You Experiencing Performance Issues in Your SQL ORMs? You Might Be Facing the Notorious N+1 Query Problem!"

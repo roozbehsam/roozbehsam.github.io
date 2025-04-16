@@ -5,7 +5,7 @@ description: "What Is a Big Ball of Mud: Causes and Solutions"
 image:
   path: /assets/img/posts/big-ball-of-mud.png
 category: [System Design & Architecture Patterns]
-tags: [architecture, anti-pattern]
+tags: [architecture, anti-patterns]
 published: true
 sitemap: true
 ---

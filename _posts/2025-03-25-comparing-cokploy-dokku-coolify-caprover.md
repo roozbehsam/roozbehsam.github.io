@@ -4,7 +4,7 @@ date: 2025-03-25 00:00 +0330
 description: Comparing Dokploy vs Dokku vs Coolify vs CapRover.
 image:
   path: /assets/img/posts/paas-comparison.png
-category: [DevOps]
+category: [Notes]
 tags: [PaaS, server, cloud]
 published: true
 sitemap: true

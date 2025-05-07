@@ -4,8 +4,8 @@ date: 2025-04-16 00:00 +0330
 description: "Value Objects vs Entities in DDD"
 image:
   path: /assets/img/posts/valueobject-vs-entity-ddd.png
-category: [System Design & Architecture Patterns]
-tags: [architecture_patterns, system_design, DDD]
+category: [Architecture and Design Patterns]
+tags: [architecture_patterns, design_patterns, DDD]
 published: true
 sitemap: true
 ---

@@ -4,8 +4,8 @@ date: 2025-03-31 00:00 +0330
 description: "What Is a Big Ball of Mud: Causes and Solutions"
 image:
   path: /assets/img/posts/big-ball-of-mud.png
-category: [System Design & Architecture Patterns]
-tags: [architecture, anti-patterns]
+category: [Architecture and Design Patterns]
+tags: [architecture_patterns, anti-patterns]
 published: true
 sitemap: true
 ---

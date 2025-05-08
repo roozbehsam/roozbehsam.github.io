@@ -1,7 +1,7 @@
 ---
-title: "Clarity Over Compactness - Writing Python That Speaks"
+title: "Clarity Over Compactness — Writing Python That Speaks"
 date: 2025-05-03 00:00 +0330
-description: "Clarity Over Compactness - Writing Python That Speaks"
+description: "Clarity Over Compactness — Writing Python That Speaks"
 #image:
 #  path: /assets/img/posts/img.png
 category: [Python]

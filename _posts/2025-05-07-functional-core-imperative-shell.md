@@ -1,7 +1,7 @@
 ---
-title: "Functional Core / Imperative Shell — When to Use It"
+title: "Functional Core - Imperative Shell (FCIS) — When to Use It"
 date: 2025-05-07 00:00 +0330
-description: "Functional Core / Imperative Shell — When to Use It"
+description: "Functional Core - Imperative Shell (FCIS) — When to Use It"
 #image:
 #  path: /assets/img/posts/img.png
 category: [Architecture and Design Patterns]

@@ -14,7 +14,7 @@ Functional core/imperative shell is a way of structuring code so that the _heart
 
 ---
 
-#### The basic idea (in plain language)
+#### The Basic Idea (in Plain Language)
 
 1. **Functional core**  
     _Write code that looks like math:_
@@ -41,7 +41,7 @@ Put differently:
 
 ---
 
-#### When you **should** use it
+#### When You **Should** Use It	
 
 |Situation|Why it helps|
 |---|---|
@@ -52,7 +52,7 @@ Put differently:
 
 ---
 
-#### When you **shouldn’t** bother
+#### When You **Shouldn’t** Bother	
 
 |Situation|Why not|
 |---|---|
@@ -63,7 +63,7 @@ Put differently:
 
 ---
 
-#### How to start in three small steps
+#### How to Start in Three Small Steps
 
 1. **Draw a line**—decide which functions _must_ touch the outside world. Everything else belongs in the core.
     
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 Swap the shell (CLI, web route, queue worker) or test against `decide` directly—no other changes required.
 
 
-#### A closing analogy
+#### A Closing Analogy
 
 Think of your functional core as a **chef’s recipe**: precise, repeatable, pure instructions.  
 The imperative shell is the **kitchen staff**: they buy ingredients, heat the stove, and serve the dish.  

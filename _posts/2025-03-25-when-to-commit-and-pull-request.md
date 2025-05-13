@@ -16,7 +16,7 @@ sitemap: true
 One of the most common questions developers face isn't about complex algorithms or debugging techniques—it's about workflow: "How often should I commit my code, and when should I create pull requests?" Whether you're new to version control or looking to refine your process, this guide will help you establish a healthy Git rhythm.
 
 
-## What is the Goal?
+## What Is the Goal?
 
 There's no universal rule for commit and PR frequency. The goal is maintaining a rhythm that:
 
@@ -32,20 +32,20 @@ There's no universal rule for commit and PR frequency. The goal is maintaining a
 10. **Smoother releases** - Clean, well-structured commits make it easier to cherry-pick specific changes for hotfixes or feature releases.
 
 
-## For commits
+## For Commits
 - Commit whenever you complete a logical unit of work that leaves the code in a working state
 - Generally this means committing several times per day
 - Each commit should represent one coherent change (e.g., "Add user authentication", "Fix navigation bug")
 - Avoid going too long without committing as this makes it harder to track changes and increases risk of losing work
 
-## For pull requests
+## For Pull Requests
 - Create a PR when you have a complete, reviewable feature or fix
 - The PR should tell a clear story about what changed and why
 - Typically this means every few days or when a user story/task is complete
 - Keep PRs focused and reasonably sized (a few hundred lines of code is often a good target)
 - Very large PRs (1000+ lines) become difficult to review effectively
 
-### Some signs you should probably create a PR:
+### Some Signs You Should Probably Create a PR:
 - You've completed a distinct piece of functionality
 - Your changes have grown to more than a day's worth of work
 - The changes are starting to touch multiple areas of the codebase

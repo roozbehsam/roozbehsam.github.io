@@ -1,9 +1,9 @@
 ---
-title: Comparing Dokploy, Dokku, Coolify, and CapRover. Which Self-Hosted PaaS is Best for You?
+title: Comparing Dokploy, Dokku, Coolify, and CapRover. Which Self-Hosted PaaS Is Best for You?
 date: 2025-03-25 00:00 +0330
 description: Comparing Dokploy vs Dokku vs Coolify vs CapRover.
-image:
-  path: /assets/img/posts/paas-comparison.png
+#image:
+#  path: /assets/img/posts/paas-comparison.png
 category: [Notes]
 tags: [PaaS, server, cloud]
 published: true
@@ -15,7 +15,7 @@ With the rise of **self-hosted Platform-as-a-Service (PaaS)** solutions, develop
 > In economics, vendor lock-in, also known as proprietary lock-in or customer lock-in, makes a customer dependent on a vendor for products, unable to use another vendor without substantial switching costs.
 {: .prompt-info }
 
-## **What is PaaS?**
+## **What Is PaaS?**
 
 A **Platform-as-a-Service (PaaS)** is a cloud computing model that provides developers with a platform to build, deploy, and manage applications without dealing with the complexities of infrastructure. PaaS solutions often include features like **automated deployments, scaling, monitoring, and integrations** with development tools, making them ideal for streamlining the software development lifecycle.
 
@@ -24,7 +24,7 @@ In this post, we’ll compare four of the most popular **open-source and free** 
 ## **Why Self-Hosted?**
 Developers may prefer **self-hosted PaaS** over cloud-hosted solutions for several reasons:
 
-### **1. No Vendor Lock-in**  
+### **1. No Vendor Lock-In**  
 With self-hosted platforms, you’re not tied to a single provider like AWS, GCP, or Azure. This gives you **full control** over your infrastructure and avoids price hikes, service restrictions, or forced migrations.
 
 ### **2. Cost Efficiency**  

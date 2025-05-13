@@ -1,7 +1,7 @@
 ---
-title: "Cohesion and Coupling"
+title: "Cohesion and Coupling—Stay Focused, Stay Free"
 date: 2025-05-13 00:00 +0330
-description: "Cohesion and Coupling"
+description: "Cohesion and Coupling—Stay Focused, Stay Free"
 #image:
 #  path: /assets/img/posts/img.png
 category: [Architecture and Design Patterns]

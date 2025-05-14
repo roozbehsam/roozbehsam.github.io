@@ -15,12 +15,4 @@ and making things easier for people.
 
 I love connecting with new people. You can reach me at roozbehatwork[at]gmail.com.
 
-#### Tools and Technologies I Use:
 
-Python\
-PostgreSQL\
-RabbitMQ\
-Redis\
-Docker\
-AWS (CDK, ECS, RDS, S3, Lambda, API Gateway)\
-CI/CD pipelines

@@ -1,0 +1,29 @@
+/* Custom color overrides for dark mode */
+
+[data-mode="dark"] {
+  /* Category folder icon and text - darkgoldenrod */
+  .categories {
+    color: darkgoldenrod !important;
+  }
+
+  .fa-folder-open {
+    color: darkgoldenrod !important;
+  }
+
+  /* Calendar/date icon - cornflowerblue */
+  .fa-calendar {
+    color: cornflowerblue !important;
+  }
+}
+
+/* Override padding for card-body in post-list on tablet and larger screens */
+@media all and (min-width: 768px) {
+  #post-list {
+    .card {
+      .card-body {
+        /* Original: padding: 1.75rem 1.75rem 1.25rem 1.75rem; */
+        padding: 1rem !important;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 /* Custom color overrides for dark mode */
 
-[data-mode="dark"] {
+html[data-mode="dark"] {
   /* Category folder icon and text - darkgoldenrod */
   .categories {
     color: darkgoldenrod !important;
@@ -13,6 +13,23 @@
   /* Calendar/date icon - cornflowerblue */
   .fa-calendar {
     color: cornflowerblue !important;
+  }
+}
+
+/* Fallback for system dark mode preference */
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) {
+    .categories {
+      color: darkgoldenrod !important;
+    }
+
+    .fa-folder-open {
+      color: darkgoldenrod !important;
+    }
+
+    .fa-calendar {
+      color: cornflowerblue !important;
+    }
   }
 }
 

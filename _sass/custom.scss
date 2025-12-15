@@ -44,3 +44,8 @@ html[data-mode="dark"] {
     }
   }
 }
+
+/* Override font-weight for time on home page only */
+#post-list h1+.post-meta time {
+  font-weight: 300;
+}
